@@ -1,0 +1,20 @@
+
+- Arrays are passed as pointers in function.
+
+  means function( int arr[] ) is same as function ( int *arr )
+
+
+
+How to print size of array parameter in C++ ?
+
+
+- can be passed as reference
+
+  function( int (&arr)[10] )
+            or
+  function( int (&arr)[n] )
+
+
+ --------------------------------------------------
+ | size of array = sizeof(arr[]) / sizeof(arr[i]) |
+ --------------------------------------------------

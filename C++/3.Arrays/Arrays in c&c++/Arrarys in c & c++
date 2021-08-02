@@ -1,0 +1,8 @@
+Incase of declaring many variable of same type array is used.
+
+Declaration:
+    - int arr[3];
+    - int arr[3] = {10,20,30};
+    - int arrr[] = {10,20,30};
+
+Get the value via indices int arr[i] or i[arr]

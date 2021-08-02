@@ -1,0 +1,24 @@
+unary minus (-)
+    -> + if -
+    -> - if +
+
+increment
+    -> a++
+    -> ++a
+
+decrement
+    -> a--
+    -> --a
+
+NOT(!)
+    -> false if true
+    -> true if false
+
+address of operator
+    -> &a
+    >> int a;
+       int *ptr;
+       ptr = &a;
+
+sizeof
+    -> sifeof()

@@ -1,0 +1,26 @@
+1. Primitive Data Type
+      Integer  >> 4 byte of memory space >> -2147483648 to 2147483647 
+      Character >> 1 byte >> -128 to 127 or 0 to 255
+      Boolean  >>  true or false
+      Float Point >> 4 bytes >>
+      Double Floating Point >> 8 bytes
+      Valueless or Void >> no value
+      Wide Character >> representation -- wchar_t >> 2 or 4 bytes long 
+
+2. Derived Data Type
+      Function
+      Array
+      Pointer
+      Reference 
+
+3. Abstract or user-defined Data Type
+      Class
+      Structure
+      Union
+      Enumeration
+      Typedef defined Data type
+
+
+
+
+      

@@ -1,0 +1,28 @@
+- Dynamic memory allocation refers to allocating memory manually by programmer.
+- Dynamic programming is allocated on Heap.
+- Programmers have allocation and de-allocate memory as well.
+- If it is not de-allocated manually, it causes memory leak. (It will be de-allocated when the program terminates)
+
+Initialize memory
+
+  ------------------------------------------
+  | pointer-variable = new datatype(value) |
+  ------------------------------------------
+
+  int *p = new int(25);
+
+  int *p = new int[10]; // for arrays || allocate block of memory
+
+   ---------------------------------------------------
+   |    |    |    |    |    |    |    |    |    |    |
+   ---------------------------------------------------
+   p[0]  p[1] p[2] p[3] p[4] p[5] p[6] p[7] p[8] p[9] 
+
+
+Delete
+
+  ---------------------------    -----------------------------
+  | delete pointer-variable |    | delete[] pointer-variable |
+  ---------------------------    -----------------------------
+
+    delete p  || delete[] p

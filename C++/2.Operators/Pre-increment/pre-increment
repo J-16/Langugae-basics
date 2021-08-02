@@ -1,0 +1,9 @@
+++a acts as l-value
+a++ acts as r-value
+
+int a = 10;
+
+++a = 20; // works  >> like a = a + 1;
+
+a++ = 20; // false >> like 10 = 20;
+
